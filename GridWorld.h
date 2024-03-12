@@ -55,12 +55,6 @@ private:
     }
   }
 
-  // private stuff goes here!
-  //   typedefs
-  //   data members
-  //   private helper functions
-  //   etc.
-
 public:
   /**
    * constructor:  initializes a "world" with nrows and
@@ -84,7 +78,6 @@ public:
       }
     }
 
-    // your constructor code here!
   }
   ~GridWorld()
   {
@@ -100,7 +93,6 @@ public:
     {
       free(people.at(i));
     }
-    // your destructor code here.
   }
 
   /*
